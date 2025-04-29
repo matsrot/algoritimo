@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #f4f4f4;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+#video-list, #recommendation-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.video {
+    background: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 200px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.video:hover {
+    background: #e0f7fa;
+}
